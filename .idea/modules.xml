@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HelloWorld.iml" filepath="$PROJECT_DIR$/HelloWorld.iml" />
-      <module fileurl="file://D:/Clickchain-Projects/loancalculator/loancalculator.iml" filepath="D:/Clickchain-Projects/loancalculator/loancalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loancalculator.iml" filepath="$PROJECT_DIR$/loancalculator.iml" />
     </modules>
   </component>
 </project>

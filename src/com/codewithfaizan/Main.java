@@ -1,3 +1,5 @@
+package com.codewithfaizan;
+
 import java.util.Scanner;
 
 public class Main {
@@ -8,7 +10,7 @@ public class Main {
         if (customerAge >= 16 & customerAge <= 25 & customerAssets < 25000){
 
             if(customerProfession.equals("s")){
-                result = 10000;
+                    result = 10000;
             }
             else  if (customerProfession.equals("p")){
                 result = 15000;
@@ -79,7 +81,7 @@ public class Main {
         System.out.println("Enter The Value of Customer's total Assets In Rupees: ");
         int customerAssets = new Scanner(System.in).nextInt();
 
-        System.out.println("Enter Customer's Profession 'S' for Self-Employed and 'P' for Professional or 'R' if Retired:");
+        System.out.println("Enter Customer's Profession 'S' for Self-Emplaoyed and 'P' for Professional or 'R' if Retired:");
         String customerProfession = new Scanner(System.in).next().toLowerCase();
 
 
