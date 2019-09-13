@@ -26,13 +26,9 @@ public class Main {
             }
         }
 
-
         else if (customerAge >= 41 & customerAge <= 60 & customerAssets < 50000){
-
             result = 40000;
         }
-
-
 
         else if (customerAge > 60 & customerAssets < 25000){
 
@@ -50,25 +46,17 @@ public class Main {
 
             else
             {
-                System.out.println("You're inserting incorrect values");
-            }
+                System.out.println("You're inserting incorrect values"); }
         }
-
         else
         {
             System.out.println("Sorry!! You're Not Eligible for this loan" );
         }
-
-
-
         return result;
     }
 
 
-
-
     public static void main(String[] args) {
-
 
         System.out.println("Enter Customer's Age: ");
         int customerAge = new Scanner(System.in).nextInt();
@@ -81,7 +69,6 @@ public class Main {
 
         System.out.println("Enter Customer's Profession 'S' for Self-Employed and 'P' for Professional or 'R' if Retired:");
         String customerProfession = new Scanner(System.in).next().toLowerCase();
-
 
         System.out.println("You're Eligible for the Loan of:" + loanEligibilityCalculator(customerAge,customerGender,customerAssets,customerProfession));
 
